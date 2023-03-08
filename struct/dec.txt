@@ -1,0 +1,9 @@
+测试用例
+结构体用大括号{}初始化
+
+测试类：StructTest.cpp
+测试结果:测试输出都是0，也许跟编译器相关吧
+
+反思：需要系统学习struct
+
+参考:https://blog.csdn.net/oHeHui1/article/details/127132851
