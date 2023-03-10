@@ -34,7 +34,7 @@ typedef 用来定义 关键字 或 标识符 的 别名
 注意uint8_t的定义为
 typedef unsigned char uint8_t;
 
-uint8_t实际上是一个char，所以输出uint8_t类型的变量实际上输出其对应的字符，而不是数值。
+uint8_t 实际上是一个 char，所以输出uint8_t类型的变量实际上输出其对应的字符，而不是数值。
  例：
 uint8_t num = 67;
 cout << num << endl;

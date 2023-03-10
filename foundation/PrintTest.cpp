@@ -11,6 +11,7 @@ using namespace std;
 int main() {
     int a = 2;
     printf("a=%x\n",a); // a=2        %x：用16进制输出
+    printf("a=%0x\n",a); //a=   2     4:宽度是4个字符
     printf("a=%4x\n",a); //a=   2     4:宽度是4个字符
     printf("a=%04x\n",a); //a=0002    0:不足4个字符的部分，用“0”来补度充
 
