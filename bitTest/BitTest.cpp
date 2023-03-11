@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main1() {
+int main() {
     uint8_t data[2];
     uint16_t version;
     data[0] = 0x01;
@@ -13,7 +13,5 @@ int main1() {
     printf("%04x \n",data[0]); //输出 0100
     printf("%04x \n",data[1]); //输出 0000
     printf("%04x \n",version); //输出 0100
-
-
-    int
+    return 0;
 }
