@@ -12,6 +12,7 @@ int main() {
 
     // 定义一个指针
     char *str = "hello";
+    cout<<(str+1)<<endl;// ello，也就是说+1就是从第二个字符开始到\0
     cout<<sizeof("hello")<<endl;
     for (int i = 0; i < sizeof("hello"); ++i) {
 
